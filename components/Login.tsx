@@ -2,7 +2,6 @@ import { useState } from "react";
 import { View, Text, TextInput, Alert, TouchableOpacity } from "react-native";
 import { supabase } from "../utils/supabase";
 import Button from "./Button";
-import { router } from "expo-router";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -18,7 +17,6 @@ const Login = () => {
 
     if (error) Alert.alert(error.message);
     setLoading(false);
-    router.push("/home");
   }
 
   async function signUpWithEmail() {
