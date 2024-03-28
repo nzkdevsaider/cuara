@@ -26,13 +26,14 @@ EXPO_PUBLIC_SUPABASE_ANON_KEY=eyXXXXXXXXXXXXXXXXXXXXXXXXX
 
 # Overview del app
 
-## Pantalla de inicio
-![image](https://github.com/nzkdevsaider/cuara/assets/14142484/6db20ad0-32e8-44a6-a57e-eead4cf03618)
+## Pantalla de inicio de sesión
+![image](https://github.com/nzkdevsaider/cuara/assets/14142484/8e87baa3-0235-42cd-9a3d-5b5672d3205f)
 
-## Pantalla de movimientos/transacciones
-![image](https://github.com/nzkdevsaider/cuara/assets/14142484/d43ed19a-a928-4eca-9a01-fb02f0c06851)
-![image](https://github.com/nzkdevsaider/cuara/assets/14142484/6a98bf80-d2bf-4652-b2b1-132b541e9980)
+## Pantalla de overview
+![image](https://github.com/nzkdevsaider/cuara/assets/14142484/ad4ad782-9651-40c7-9787-10a004826012)
 
+## Pantalla de facturas
+![image](https://github.com/nzkdevsaider/cuara/assets/14142484/179c0d1f-d364-4ea1-94df-01bf8c551f71)
 
 ## Autores
 
