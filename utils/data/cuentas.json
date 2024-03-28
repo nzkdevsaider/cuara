@@ -1,0 +1,31 @@
+{
+	"accounts": [
+		{
+			"id": 1,
+			"cid": "CR-456-24546-562",
+			"type": 1,
+			"primary": true,
+			"hasCard": true,
+			"name": "Cuenta principal",
+			"balance": 1000
+		},
+		{
+			"id": 2,
+			"cid": "CR-124-5646-643",
+			"type": 3,
+			"primary": false,
+			"hasCard": true,
+			"name": "Compras de navidad",
+			"balance": 2000
+		},
+		{
+			"id": 3,
+			"cid": "CR-036-34546-325",
+			"type": 2,
+			"primary": false,
+			"hasCard": false,
+			"name": "Cuenta de ahorro",
+			"balance": 3000
+		}
+	]
+}

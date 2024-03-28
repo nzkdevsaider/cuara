@@ -4,6 +4,7 @@
     "slug": "cuara",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "cuaraapp",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -24,7 +25,20 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7b0d2117-c77f-47c4-878d-41179a21aee2"
+      }
+    },
+    "owner": "devsaider"
   }
 }

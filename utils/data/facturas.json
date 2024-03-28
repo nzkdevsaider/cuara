@@ -1,0 +1,252 @@
+[
+	{
+		"id": 4,
+		"status": "paid",
+		"enterprise": "Supermercado El Ahorro",
+		"discount": 5.0,
+		"date": "2019-04-05",
+		"subtotal": 125.75,
+		"tax": 28.92,
+		"total": 149.67,
+		"items": [
+			{
+				"name": "Leche",
+				"quantity": 2,
+				"price": 2.8
+			},
+			{
+				"name": "Huevos",
+				"quantity": 1,
+				"price": 3.2
+			},
+			{
+				"name": "Carne de res",
+				"quantity": 1.5,
+				"price": 18.9
+			},
+			{
+				"name": "Verduras",
+				"quantity": 2,
+				"price": 7.5
+			}
+		]
+	},
+	{
+		"id": 5,
+		"status": "pending",
+		"enterprise": "Tienda de Ropa Moda Express",
+		"discount": 0.0,
+		"date": "2019-04-20",
+		"subtotal": 89.9,
+		"tax": 20.68,
+		"total": 110.58,
+		"items": [
+			{
+				"name": "Camiseta",
+				"quantity": 2,
+				"price": 19.99
+			},
+			{
+				"name": "Pantalones",
+				"quantity": 1,
+				"price": 49.92
+			}
+		]
+	},
+	{
+		"id": 6,
+		"status": "paid",
+		"enterprise": "Ferretería El Martillo",
+		"discount": 10.0,
+		"date": "2019-05-10",
+		"subtotal": 225.0,
+		"tax": 51.75,
+		"total": 266.75,
+		"items": [
+			{
+				"name": "Taladro",
+				"quantity": 1,
+				"price": 89.99
+			},
+			{
+				"name": "Martillo",
+				"quantity": 2,
+				"price": 17.5
+			},
+			{
+				"name": "Clavos",
+				"quantity": 1,
+				"price": 9.99
+			}
+		]
+	},
+	{
+		"id": 7,
+		"status": "pending",
+		"enterprise": "Estación de Servicio El Viajero",
+		"discount": 0.0,
+		"date": "2019-05-25",
+		"subtotal": 65.0,
+		"tax": 14.95,
+		"total": 79.95,
+		"items": [
+			{
+				"name": "Gasolina",
+				"quantity": 30,
+				"price": 2.1
+			},
+			{
+				"name": "Aceite de motor",
+				"quantity": 1,
+				"price": 5.0
+			}
+		]
+	},
+	{
+		"id": 8,
+		"status": "paid",
+		"enterprise": "Clínica Dental Sonrisas",
+		"discount": 0.0,
+		"date": "2019-06-15",
+		"subtotal": 180.0,
+		"tax": 41.4,
+		"total": 221.4,
+		"items": [
+			{
+				"name": "Limpieza dental",
+				"quantity": 1,
+				"price": 80.0
+			},
+			{
+				"name": "Empaste",
+				"quantity": 1,
+				"price": 100.0
+			}
+		]
+	},
+	{
+		"id": 9,
+		"status": "pending",
+		"enterprise": "Gymrock Fitness",
+		"discount": 20.0,
+		"date": "2019-07-01",
+		"subtotal": 600.0,
+		"tax": 138.0,
+		"total": 718.0,
+		"items": [
+			{
+				"name": "Membresía anual",
+				"quantity": 1,
+				"price": 600.0
+			}
+		]
+	},
+	{
+		"id": 10,
+		"status": "paid",
+		"enterprise": "Cafetería El Aroma",
+		"discount": 0.0,
+		"date": "2019-07-20",
+		"subtotal": 15.8,
+		"tax": 3.63,
+		"total": 19.43,
+		"items": [
+			{
+				"name": "Café Americano",
+				"quantity": 2,
+				"price": 2.5
+			},
+			{
+				"name": "Croissant",
+				"quantity": 1,
+				"price": 3.8
+			},
+			{
+				"name": "Jugo de naranja",
+				"quantity": 1,
+				"price": 4.0
+			}
+		]
+	},
+	{
+		"id": 11,
+		"status": "pending",
+		"enterprise": "Librería El Saber",
+		"discount": 10.0,
+		"date": "2019-08-05",
+		"subtotal": 89.9,
+		"tax": 20.68,
+		"total": 100.58,
+		"items": [
+			{
+				"name": "Novela de misterio",
+				"quantity": 2,
+				"price": 19.99
+			},
+			{
+				"name": "Cuaderno de notas",
+				"quantity": 3,
+				"price": 4.97
+			},
+			{
+				"name": "Bolígrafo",
+				"quantity": 2,
+				"price": 1.99
+			}
+		]
+	},
+	{
+		"id": 12,
+		"status": "paid",
+		"enterprise": "Boutique Glamour",
+		"discount": 15.0,
+		"date": "2019-08-20",
+		"subtotal": 225.0,
+		"tax": 51.75,
+		"total": 261.75,
+		"items": [
+			{
+				"name": "Vestido de noche",
+				"quantity": 1,
+				"price": 149.99
+			},
+			{
+				"name": "Zapatos de tacón",
+				"quantity": 1,
+				"price": 75.0
+			}
+		]
+	},
+	{
+		"id": 13,
+		"status": "pending",
+		"enterprise": "Taller Mecánico El Experto",
+		"discount": 0.0,
+		"date": "2019-09-10",
+		"subtotal": 350.0,
+		"tax": 80.5,
+		"total": 430.5,
+		"items": [
+			{
+				"name": "Cambio de aceite",
+				"quantity": 1,
+				"price": 50.0
+			},
+			{
+				"name": "Alineación",
+				"quantity": 1,
+				"price": 80.0
+			},
+			{
+				"name": "Balanceo de llantas",
+				"quantity": 1,
+				"price": 120.0
+			},
+			{
+				"name": "Revisión general",
+				"quantity": 1,
+				"price": 100.0
+			}
+		]
+	}
+]
