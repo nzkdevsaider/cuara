@@ -1,7 +1,8 @@
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import Button from "../../components/Button";
 import { supabase } from "../../utils/supabase";
 import { router } from "expo-router";
+
 const cuenta = () => {
   const signOut = () => {
     supabase.auth.signOut();
@@ -9,10 +10,26 @@ const cuenta = () => {
   };
 
   return (
-    <View className="flex flex-col justify-center p-2">
-      <Button color="bg-red-500" onPress={signOut}>Cerrar sesion</Button>
+    <View style={styles.container}>
+      <Text>
+        La funcionalidad para ver la informacion de tu cuenta esta limitada en
+        esta version de demostracion.
+      </Text>
+      <Button buttonColor="#ef4444" onPress={signOut}>
+        Cerrar sesión
+      </Button>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    padding: 16,
+    gap: 16,
+  },
+});
 
 export default cuenta;
