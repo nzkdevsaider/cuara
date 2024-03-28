@@ -1,9 +1,5 @@
 ![Logo](./assets/logo.png)
 
-# Cuara
-
-Cuara es un prototipo de aplicación móvil con el fin de demostrar el uso de ´react-native´ para administrar cuentas, pagos y facturas.
-
 # Ejecutar
 
 - El gestor de paquete preferido en este proyecto es npm.
