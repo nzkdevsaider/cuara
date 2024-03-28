@@ -19,11 +19,6 @@ EXPO_PUBLIC_SUPABASE_URL=https://xxxxxxxxxxxxxxxxxx.supabase.co
 EXPO_PUBLIC_SUPABASE_ANON_KEY=eyXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-## Wireframe prototipo
-
-![image](https://github.com/nzkdevsaider/cuara/assets/14142484/727e233f-bfe6-40a4-bf1f-722196dd1926)
-
-
 # Overview del app
 
 ## Pantalla de inicio de sesión
