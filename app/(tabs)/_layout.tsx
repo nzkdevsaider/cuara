@@ -1,10 +1,10 @@
 import React from "react";
-import { AntDesign, MaterialIcons } from "@expo/vector-icons";
+import { AntDesign, MaterialIcons, FontAwesome5 } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ tabBarActiveTintColor: "blue" }}>
+    <Tabs screenOptions={{ tabBarActiveTintColor: "#febd59" }}>
       <Tabs.Screen
         name="home"
         options={{
@@ -15,11 +15,11 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="movimientos"
+        name="facturas"
         options={{
-          title: "Movimientos",
+          title: "Facturas",
           tabBarIcon: ({ color }) => (
-            <MaterialIcons name="compare-arrows" size={24} color={color} />
+            <FontAwesome5 name="file-invoice" size={24} color={color} />
           ),
         }}
       />
