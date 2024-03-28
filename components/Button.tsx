@@ -1,34 +1,26 @@
-import { Text, TouchableOpacity, View } from "react-native";
+import { Text, TouchableOpacity, StyleSheet } from "react-native";
+import { Button as ButtonPaper } from "react-native-paper";
 
 const Button = ({
   children,
-  className,
-  color,
-  size,
+  buttonColor,
+  icon,
+  mode,
+  disabled,
+  loading,
   onPress,
-}: {
-  children: React.ReactNode;
-  className?: string;
-  color?: string;
-  size?: "sm" | "md" | "lg";
-  onPress: () => void;
-}) => {
+}: ButtonProps) => {
   return (
-    <TouchableOpacity className="my-2" onPress={onPress}>
-      <Text
-        className={`${
-          color ?? "bg-blue-500"
-        } text-white p-2 rounded-md text-center ${
-          size === "sm"
-            ? "text-sm"
-            : size === "lg"
-            ? "text-lg p-4"
-            : "text-md p-3"
-        }`}
-      >
-        {children}
-      </Text>
-    </TouchableOpacity>
+    <ButtonPaper
+      mode={mode ?? "contained"}
+      icon={icon}
+      loading={loading}
+      disabled={disabled}
+      buttonColor={buttonColor ?? "#8e6b95"}
+      onPress={onPress}
+    >
+      {children}
+    </ButtonPaper>
   );
 };
 
