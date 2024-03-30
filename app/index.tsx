@@ -9,7 +9,7 @@ const index = () => {
   const [session, setSession] = useState<Session | null>(null);
 
   useEffect(() => {
-    if (session?.user) return router.push("/home");
+    if (session?.user) return router.replace("/home");
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session);
     });
@@ -30,17 +30,17 @@ const index = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
-    alignItems: "center",
     padding: 16,
   },
   logoContainer: {
     marginVertical: 16,
   },
   logo: {
-    width: 200,
-    height: 200,
+    width: 130,
+    height: 130,
     resizeMode: "contain",
     alignSelf: "center",
   },
