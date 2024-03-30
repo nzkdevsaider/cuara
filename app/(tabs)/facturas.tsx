@@ -10,6 +10,7 @@ import Animated, {
   FadeOut,
 } from "react-native-reanimated";
 import { Button, IconButton, Searchbar, Text, FAB } from "react-native-paper";
+import { Color } from "../../utils/colors";
 
 const movimientos = () => {
   const factura = getFacturas();
@@ -60,7 +61,7 @@ const movimientos = () => {
           <Button
             mode="contained"
             style={{ borderRadius: 8 }}
-            buttonColor="#febd59"
+            buttonColor={Color.button.secondary}
             uppercase={true}
           >
             Ver reporte de facturas
