@@ -3,16 +3,34 @@ import { FontAwesome6, AntDesign } from "@expo/vector-icons";
 import Stat from "../../components/Stat";
 import { getTimeGreetings } from "../../utils/getTimeGreetings";
 import { getUser } from "../../utils/api/getUser";
-import { getCuentas } from "../../utils/api/getCuentas";
 import { LinearGradient } from "expo-linear-gradient";
-import Animated, { BounceIn, BounceOut } from "react-native-reanimated";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import Animated, {
+  BounceIn,
+  BounceOut,
+  SlideInUp,
+} from "react-native-reanimated";
+import { Color } from "../../utils/colors";
+import { useEffect, useState } from "react";
+import { router } from "expo-router";
 
 const home = () => {
   const { firstname } = getUser();
 
+  useEffect(() => {
+    const checkTutorial = async () => {
+      const tutorial = await AsyncStorage.getItem("tutorial");
+      if (!tutorial) {
+        await AsyncStorage.setItem("tutorial", "true");
+        router.replace("tutorial");
+      }
+    };
+    checkTutorial();
+  }, []);
+
   return (
     <ScrollView>
-      <View style={styles.container}>
+      <Animated.View entering={SlideInUp} style={styles.container}>
         <Stat horizontal>
           <Text style={styles.greetingText}>
             {getTimeGreetings()}, {firstname}
@@ -94,7 +112,7 @@ const home = () => {
           </Text>
         </View>
         **/}
-      </View>
+      </Animated.View>
     </ScrollView>
   );
 };
@@ -109,17 +127,17 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   textColorPrimary: {
-    color: "#51566b",
+    color: Color.text.primary,
   },
   textColorSecondary: {
-    color: "#7d7b98",
+    color: Color.text.secondary,
   },
   textColorTertiary: {
-    color: "#404040",
+    color: Color.text.tertiary,
   },
   greetingText: {
     fontSize: 24,
-    color: "#51566b",
+    color: Color.text.primary,
   },
   fondosContainer: {
     display: "flex",
