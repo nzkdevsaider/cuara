@@ -18,6 +18,13 @@ npm start
 EXPO_PUBLIC_SUPABASE_URL=https://xxxxxxxxxxxxxxxxxx.supabase.co
 EXPO_PUBLIC_SUPABASE_ANON_KEY=eyXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
+# Wireframes prototipo
+
+## Diseño de tabs
+![image](https://github.com/nzkdevsaider/cuara/assets/14142484/46fbc9ab-1187-49a5-889d-8f231096f3aa)
+
+## Diseño del onboarding carousel
+![image](https://github.com/nzkdevsaider/cuara/assets/14142484/0921da8a-9dbf-499f-b1e6-4850aefe1bac)
 
 # Overview del app
 
