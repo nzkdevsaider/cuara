@@ -15,7 +15,7 @@ const MovementCard = ({
 }: Factura) => {
   return (
     <View style={styles.container}>
-      <View>
+      <View style={styles.enterpriseContainer}>
         <Text style={styles.dateText}>🇵🇦 {getFechaFormateada(date)}</Text>
         <Text
           style={styles.enterpriseText}
@@ -55,10 +55,14 @@ const styles = StyleSheet.create({
     padding: 16,
     marginVertical: 4,
   },
+  enterpriseContainer: {
+    display: "flex",
+    flexDirection: "column",
+    flexShrink: 1,
+  },
   enterpriseText: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: "600",
-    maxWidth: 265,
   },
   dateText: {
     fontSize: 14,
@@ -71,7 +75,6 @@ const styles = StyleSheet.create({
   totalContainer: {
     flexDirection: "column",
     alignItems: "flex-end",
-    gap: 8,
   },
   totalText: {
     fontSize: 18,
