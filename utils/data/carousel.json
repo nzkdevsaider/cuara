@@ -1,0 +1,23 @@
+[
+	{
+		"title": "Bienvenido a Factú",
+		"subtitle": "Prepárate para aprender de finanzas",
+		"imageUrl": "https://raw.githubusercontent.com/CerebralFart/UndrawMirror/6d0737b08056cc4f7561b4b05cd2e6f0498372b3/images/Business%20deal.svg",
+		"caption": "El primer paso para poder aprender sobre tus finanzas es conocer acerca de nuestra tarjeta digital que permite realizar pagos en cualquier país con una moneda unificada!",
+		"link": "/home"
+	},
+	{
+		"title": "Administra tus gastos",
+		"subtitle": "Mantén tus finanzas bajo control",
+		"videoUrl": "https://cdn.pixabay.com/video/2022/12/03/141482-777708179_large.mp4",
+		"caption": "Nuestro sistema te permitirá llevar un registro detallado de tus gastos y generar informes para una mejor gestión de tus finanzas.",
+		"link": "/facturas"
+	},
+	{
+		"title": "Aprende a invertir",
+		"subtitle": "Haz crecer tu dinero",
+		"imageUrl": "https://raw.githubusercontent.com/CerebralFart/UndrawMirror/6d0737b08056cc4f7561b4b05cd2e6f0498372b3/images/Business%20plan.svg",
+		"caption": "Con Factu podrás aprender a invertir tu dinero de manera segura y eficiente, para que puedas hacer crecer tu patrimonio.",
+		"link": "/inversiones"
+	}
+]

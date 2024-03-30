@@ -2,12 +2,12 @@
 	{
 		"id": 4,
 		"status": "paid",
-		"enterprise": "Supermercado El Ahorrofgdgfdgggggggggfgdfg",
+		"enterprise": "Supermercado El Ahorro",
 		"discount": 5.0,
 		"date": "2019-04-05",
 		"subtotal": 125.75,
 		"tax": 28.92,
-		"total": 149.67,
+		"total": 3345.0,
 		"items": [
 			{
 				"name": "Leche",
@@ -39,7 +39,7 @@
 		"date": "2019-04-20",
 		"subtotal": 89.9,
 		"tax": 20.68,
-		"total": 110.58,
+		"total": 3000000.0,
 		"items": [
 			{
 				"name": "Camiseta",
