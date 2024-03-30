@@ -1,5 +1,6 @@
 import { Text, TouchableOpacity, StyleSheet } from "react-native";
 import { Button as ButtonPaper } from "react-native-paper";
+import { Color } from "../utils/colors";
 
 const Button = ({
   children,
@@ -16,7 +17,7 @@ const Button = ({
       icon={icon}
       loading={loading}
       disabled={disabled}
-      buttonColor={buttonColor ?? "#8e6b95"}
+      buttonColor={buttonColor ?? Color.button.primary}
       onPress={onPress}
     >
       {children}
