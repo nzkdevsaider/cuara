@@ -3,6 +3,7 @@ import { View, Alert, StyleSheet } from "react-native";
 import { TextInput } from "react-native-paper";
 import { supabase } from "../utils/supabase";
 import Button from "./Button";
+import { Color } from "../utils/colors";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -84,7 +85,10 @@ const Login = () => {
         <Button disabled={loading} onPress={signUpWithEmail}>
           Registrarse
         </Button>
-        <Button onPress={() => Alert.alert("Esta funcion no esta disponible.")}>
+        <Button
+          buttonColor={Color.button.secondary}
+          onPress={() => Alert.alert("Esta funcion no esta disponible.")}
+        >
           Factú Business
         </Button>
       </View>
